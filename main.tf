@@ -10,7 +10,7 @@ terraform {
     }
   }
   required_version = "~> 1.0"
-
+  # Using terraform cloud
   cloud {
     organization = "acloudguru-demo"
 
