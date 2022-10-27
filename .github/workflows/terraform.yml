@@ -1,4 +1,4 @@
-name: "Terraform"
+name: "Terraform Name"
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
       - name: Terraform Init
         id: init
         run: terraform init
-      
+
       - name: Terraform Validate
         id: validate
         run: terraform validate -no-color
